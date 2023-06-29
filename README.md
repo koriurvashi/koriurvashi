@@ -5,9 +5,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=koriurvashi&label=Profile%20views&color=0e75b6&style=flat" alt="koriurvashi" /> </p>
 
-- 🌱 I’m currently learning ** About SVM**
+- 🌱 I’m currently learning **About SVM**
 
-- 💬 Ask me about **Statistics(descriptive),EDA**
+- 💬 Ask me about **Statistics,EDA,Python**
 
 - 📫 How to reach me **urvashi.du.or.24@gmail.com**
 
