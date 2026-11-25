@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F1B2D,50:1F3A5F,100:F28C38&height=260&section=header&text=Urvashi%20Kori&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20%26%20Research%20Analyst%20%7C%20AI%20Automation%20Builder&descSize=20&descAlignY=60" alt="Urvashi Kori. Data and Research Analyst, AI Automation Builder." width="100%">
+<img src="banner.svg" alt="Urvashi Kori, Data Analyst. I turn business questions into decisions." width="100%">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-urvashi07-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/urvashi07/)
 [![Gmail](https://img.shields.io/badge/Gmail-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urvashiikori@gmail.com)
