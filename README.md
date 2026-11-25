@@ -1,4 +1,3 @@
-<!-- ============ BANNER ============ -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F1B2D,50:1F3A5F,100:F28C38&height=260&section=header&text=Urvashi%20Kori&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20%26%20Research%20Analyst%20%7C%20AI%20Automation%20Builder&descSize=20&descAlignY=60" alt="Urvashi Kori. Data and Research Analyst, AI Automation Builder." width="100%">
@@ -7,7 +6,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urvashiikori@gmail.com)
 ![Profile views](https://komarev.com/ghpvc/?username=koriurvashi&label=Profile%20views&color=F28C38&style=for-the-badge)
 
-**[About](#-about-me)** · **[Impact](#-impact-at-a-glance)** · **[Tech Stack](#-tech-stack)** · **[Projects](#-featured-projects)** · **[Experience](#-experience)** · **[Contact](#-lets-connect)**
+**[About](#-about-me)** · **[Impact](#-impact-at-a-glance)** · **[Approach](#-how-i-approach-a-business-problem)** · **[Projects](#-featured-projects)** · **[Experience](#-experience)** · **[Tech Stack](#-tech-stack)** · **[Contact](#-lets-connect)**
 
 </div>
 
@@ -24,15 +23,16 @@
 <tr>
 <td width="62%" valign="top">
 
-I'm an **analyst with 2+ years in a supply chain advisory team** and a **Master's in Operational Research**.
-I like finding a task that people do by hand, again and again, and **automating it so it never needs doing twice**.
+**I'm a data analyst who starts with the business decision, then works back to the data.**
 
-- 🚢 Research Analyst at **Drewry Shipping Consultants**
+I have 2+ years in a supply chain advisory team and a Master's in Operational Research. My work is about finding where people lose time or make decisions on weak information, then fixing it with analysis, forecasting and automation.
+
+- 🚢 Research Analyst at **Drewry Shipping Consultants**, working with 70+ enterprise client datasets
+- 🎯 I define the question and the metric first, and pick the tools second
 - 📊 **Python, SQL, Power BI**, statistical modelling and time-series forecasting
-- 🤖 **AI workflows in n8n** with Llama 3.3 on Groq, turning hours of research into minutes
+- 🤖 **AI workflows in n8n** with Llama 3.3 on Groq, so non-technical teams can get answers without waiting on an analyst
 - 🎓 Master of Operational Research · B.Sc. Statistics (Hons), University of Delhi
-- 🧠 Hands-on with **LLMs, RAG and agentic workflows**
-- 💬 Ask me about: data validation, forecasting, NL2SQL, dashboards, automation
+- 💬 Ask me about: data validation, forecasting, retention analysis, dashboards, self-serve analytics
 
 </td>
 <td width="38%" align="center" valign="middle">
@@ -42,10 +42,6 @@ I like finding a task that people do by hand, again and again, and **automating 
 </td>
 </tr>
 </table>
-
-![Role](https://img.shields.io/badge/Role-Data%20%7C%20Research%20Analyst-0F1B2D?style=for-the-badge)
-![Focus](https://img.shields.io/badge/Focus-Automation%20%7C%20Forecasting%20%7C%20LLMs-F28C38?style=for-the-badge)
-![Education](https://img.shields.io/badge/Education-Operational%20Research-1F3A5F?style=for-the-badge)
 
 <!-- ============ IMPACT ============ -->
 ## 📈 Impact at a Glance
@@ -59,6 +55,11 @@ I like finding a task that people do by hand, again and again, and **automating 
 </td>
 <td width="45%" valign="middle">
 
+<!--
+TODO: add a baseline to each number so it survives interview questions.
+e.g. "Reporting cycle: X days down to Y" / "3 hrs saved per week or per run?" / how 25% visibility was measured.
+-->
+
 | | |
 |---|---|
 | 🗂️ **70+** | enterprise client datasets in one automated validation pipeline |
@@ -70,77 +71,63 @@ I like finding a task that people do by hand, again and again, and **automating 
 </tr>
 </table>
 
-### 🔄 How I work
+<!-- ============ APPROACH ============ -->
+## 🧭 How I Approach a Business Problem
 
 ```mermaid
 flowchart LR
-    A[📥 Raw data] --> B[🧹 Clean and validate<br/>Python · SQL]
-    B --> C[📐 Model and forecast<br/>XGBoost · ARIMA]
-    C --> D[🤖 Automate<br/>n8n · LLMs]
-    D --> E[📊 Decide<br/>Power BI dashboards]
+    A[❓ Business question<br/>What decision is at stake?] --> B[📏 Define the metric<br/>What does success look like?]
+    B --> C[🧹 Clean and validate<br/>Python · SQL]
+    C --> D[🔍 Find the why<br/>Segment, test, model]
+    D --> E[💡 Recommend<br/>What to do next]
+    E --> F[🔁 Measure and automate<br/>Dashboards · n8n]
 ```
 
-<!-- ============ TECH STACK ============ -->
-## 🧰 Tech Stack
-
-<table>
-<tr>
-<td width="68%" valign="top">
-
-**Languages and data**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-
-**AI and automation**
-
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Llama 3.3](https://img.shields.io/badge/Llama%203.3-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-6E56CF?style=for-the-badge)
-![Agentic](https://img.shields.io/badge/Agentic%20Workflows-14213D?style=for-the-badge)
-![XGBoost](https://img.shields.io/badge/XGBoost-EB6A00?style=for-the-badge)
-
-**Analytics and BI**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel VBA](https://img.shields.io/badge/Excel%20%2B%20VBA-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![ARIMA](https://img.shields.io/badge/ARIMA-Forecasting-2F5D8A?style=for-the-badge)
-
-</td>
-<td width="32%" align="center" valign="middle">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="Coding animation" width="100%">
-
-</td>
-</tr>
-</table>
-
-**Domain strengths:** statistical hypothesis testing · root-cause analysis · predictive modelling · time-series forecasting · NLP for client insights · data storytelling and executive dashboards
+| Principle | What it means in practice |
+|---|---|
+| **Decision first** | Every analysis starts with who will act on it and what they will do differently. |
+| **Metric before model** | I agree on what "good" means before building anything, including what a wrong prediction costs. |
+| **The why, not just the what** | I segment, test and root-cause rather than report totals. |
+| **End with a recommendation** | Every project ends with a next action, an expected impact and what I would test next. |
+| **Make it repeatable** | If a task will recur, I automate it so the team's time goes to decisions instead of prep. |
 
 <!-- ============ PROJECTS ============ -->
 ## 🚀 Featured Projects
 
+Each project is written as a business case: the question, the approach, what I found and what I would recommend.
+
 ### 📉 [Customer Churn Analysis ↗](https://github.com/koriurvashi/customer-churn-analysis)
-Finds why subscribers cancel, which segments leave most, and how much revenue is at risk.
+**Question:** Why do subscribers cancel, and where should a retention team focus first?
+**What it does:** finds which segments leave most and quantifies the revenue at risk, so effort can be prioritised by impact.
 `Python` `SQL` `pandas` `seaborn`
 
 ### 💬 [NL2SQL Chat Agent ↗](https://github.com/koriurvashi/nl2sql-chat-agent)
-Ask a database questions in plain English and get SQL-backed answers with insight.
+**Question:** How can non-technical teams get answers from data without waiting in an analyst queue?
+**What it does:** turns plain-English questions into SQL-backed answers with a short insight, a step towards self-serve analytics.
 `n8n` `Llama 3.3` `Groq` `PostgreSQL`
 
+### 🧵 Reddit Post Analysis and Moderation Classifier
+**Question:** Can moderation effort be focused on the posts most likely to need it?
+**What it does:** EDA with window functions and CTEs, then TF-IDF with Decision Tree and Random Forest (**F1 0.72**), compared against zero-shot classification with Gemini 2.0 Flash (**91% accuracy**).
+`Python` `NLP` `scikit-learn` `Power BI`
+
+### 💳 [Credit Card Fraud Detection ↗](https://github.com/koriurvashi/Credit-card-Fraud-Detection)
+**Question:** How do you balance catching fraud against blocking genuine customers?
+**What it does:** treats the precision and recall trade-off as a cost decision, because a missed fraud and a wrongly blocked customer cost different amounts.
+`Python` `scikit-learn`
+
 ### 📰 [AI Market News Digest ↗](https://github.com/koriurvashi/ai-market-news-digest)
-Collects industry news, filters out noise with an LLM, and emails a daily summary.
+**Question:** How can a team stay on top of industry news without reading everything?
+**What it does:** collects news, filters noise with an LLM and emails a daily summary.
 `n8n` `Groq` `Apify` `JavaScript`
 
-### 🧵 Reddit Post Analysis and Moderation Classifier
-EDA with window functions and CTEs, TF-IDF, Decision Tree and Random Forest (**F1 0.72**), and zero-shot classification with Gemini 2.0 Flash (**91% accuracy**).
-`Python` `NLP` `scikit-learn` `Power BI`
+<!--
+Coming next, once built (uncomment and link):
+### 🔻 Funnel and Retention Analysis
+Where do users drop off, and which cohorts stay?
+### 🧪 A/B Test Analysis
+Primary metric, guardrail metrics and sample-size reasoning for an experiment readout.
+-->
 
 <!-- ============ EXPERIENCE ============ -->
 ## 💼 Experience
@@ -154,11 +141,11 @@ EDA with window functions and CTEs, TF-IDF, Decision Tree and Random Forest (**F
 
 <br>
 
-- 🤖 **GenAI research pipeline** with Llama 3.3, Groq and n8n to analyse research trends in near real time, saving 3 hours of manual research.
-- 💬 **NL2SQL prototype** in n8n that turns plain-language questions into SQL for non-technical teams.
-- 📦 **Nowcasting model**: Linear Regression and XGBoost (Voting Regressor) to predict global container port throughput.
-- 📊 **Dashboards and checks**: hypothesis testing, root-cause analysis, VBA outlier detection and Power BI executive dashboards, lifting cross-team visibility by 25%.
-- ✅ **Validation pipeline** across 70+ client datasets, cutting reporting cycles by 90%+.
+- ✅ **Data quality at scale:** built an automated validation pipeline across 70+ client datasets, cutting reporting cycles by 90%+.
+- 📊 **Visibility for decisions:** hypothesis testing, root-cause analysis, VBA outlier detection and Power BI executive dashboards, lifting cross-team visibility by 25%.
+- 📦 **Forecasting:** nowcasting model (Linear Regression and XGBoost Voting Regressor) to predict global container port throughput.
+- 🤖 **Cutting manual research:** GenAI research pipeline with Llama 3.3, Groq and n8n that analyses research trends in near real time, saving 3 hours of manual work.
+- 💬 **Self-serve analytics:** NL2SQL prototype in n8n so non-technical teams can query data in plain language.
 
 </details>
 
@@ -176,10 +163,50 @@ EDA with window functions and CTEs, TF-IDF, Decision Tree and Random Forest (**F
 - **Master of Operational Research**, Hansraj College, University of Delhi (2024)
 - **B.Sc. Statistics (Honours)**, Ramjas College, University of Delhi (2022)
 
+<!-- ============ TECH STACK ============ -->
+## 🧰 Tech Stack
+
+<table>
+<tr>
+<td width="68%" valign="top">
+
+**Languages and data**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB6A00?style=for-the-badge)
+
+**Analytics and BI**
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel VBA](https://img.shields.io/badge/Excel%20%2B%20VBA-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![ARIMA](https://img.shields.io/badge/ARIMA-Forecasting-2F5D8A?style=for-the-badge)
+
+**AI and automation**
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Llama 3.3](https://img.shields.io/badge/Llama%203.3-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-6E56CF?style=for-the-badge)
+
+</td>
+<td width="32%" align="center" valign="middle">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="Coding animation" width="100%">
+
+</td>
+</tr>
+</table>
+
+**Domain strengths:** statistical hypothesis testing · root-cause analysis · predictive modelling · time-series forecasting · NLP for client insights · data storytelling and executive dashboards
+
 <!-- ============ CONTACT ============ -->
 ## 🤝 Let's Connect
 
-I'm happy to talk about analytics, automation and forecasting, or to hear about problems worth automating.
+I'm open to **Data Analyst and Product Analyst roles**, and always happy to talk about analytics, forecasting and problems worth solving.
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/urvashi07/)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urvashiikori@gmail.com)
