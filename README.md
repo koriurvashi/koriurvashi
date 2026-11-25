@@ -111,10 +111,6 @@ Each project is written as a business case: the question, the approach, what I f
 **What it does:** EDA with window functions and CTEs, then TF-IDF with Decision Tree and Random Forest (**F1 0.72**), compared against zero-shot classification with Gemini 2.0 Flash (**91% accuracy**).
 `Python` `NLP` `scikit-learn` `Power BI`
 
-### 💳 [Credit Card Fraud Detection ↗](https://github.com/koriurvashi/Credit-card-Fraud-Detection)
-**Question:** How do you balance catching fraud against blocking genuine customers?
-**What it does:** treats the precision and recall trade-off as a cost decision, because a missed fraud and a wrongly blocked customer cost different amounts.
-`Python` `scikit-learn`
 
 ### 📰 [AI Market News Digest ↗](https://github.com/koriurvashi/ai-market-news-digest)
 **Question:** How can a team stay on top of industry news without reading everything?
