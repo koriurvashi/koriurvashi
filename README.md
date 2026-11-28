@@ -96,7 +96,7 @@ flowchart LR
 
 Each project is written as a business case: the question, the approach, what I found and what I would recommend.
 
-### 📉 [Customer Churn Analysis ↗](https://github.com/koriurvashi/customer-churn-analysis)
+### 📉 [Customer Churn Analysis ↗](https://github.com/koriurvashi/Customer-Churn-Project)
 **Question:** Why do subscribers cancel, and where should a retention team focus first?
 **What it does:** finds which segments leave most and quantifies the revenue at risk, so effort can be prioritised by impact.
 `Python` `SQL` `pandas` `seaborn`
